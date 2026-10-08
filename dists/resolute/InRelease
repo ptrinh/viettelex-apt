@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: resolute
+Components: main
+Date: Thu, 08 Oct 2026 09:37:03 +0000
+Description: VietTelex Vietnamese input method
+Label: VietTelex
+Origin: VietTelex
+Suite: resolute
+MD5Sum:
+ e2f9cbe2cde0091b9b05d9e384e6fa47             8551 main/binary-amd64/Packages
+ 36706de9077480fd185ec8cd01af84c4             2940 main/binary-amd64/Packages.gz
+ fe91eda46f6f242680bc77c15a4f5568               89 main/binary-amd64/Release
+ a4a6c9a859c808297630efce7d093096             8551 main/binary-arm64/Packages
+ ef2bde34873e6e512e41a709944b4963             2943 main/binary-arm64/Packages.gz
+ 5a30b3dbab905d1386439db2640a0338               89 main/binary-arm64/Release
+SHA1:
+ a617031252b3a3f10f8a1b29debb74154ec56155             8551 main/binary-amd64/Packages
+ 936a615a77ad05b22860d2bf7c9f622b88f0045f             2940 main/binary-amd64/Packages.gz
+ bf0c7704209c29ba48e3ea9078b78eb9b57cc007               89 main/binary-amd64/Release
+ 59b80f5a1da16faa99c785b6c2ab53d14769085a             8551 main/binary-arm64/Packages
+ 0bbb72e19bd772c1fad95190a0f60b18e39c6c64             2943 main/binary-arm64/Packages.gz
+ 6b6bf9165ce6ad84019c548099ac45befce27b7d               89 main/binary-arm64/Release
+SHA256:
+ a9adce32c579c6f5783a770d887b6d35f2c229393ea8579b7eda383fb6e2335d             8551 main/binary-amd64/Packages
+ dbfce36d13f036a54ad651511ddd6b219430af85a66b0160a152588006c1e88a             2940 main/binary-amd64/Packages.gz
+ 71c1a4454c3495da405542db7dbc2b05cfb53a0a65aabf43f82897cdfcb3890b               89 main/binary-amd64/Release
+ 8bf5d9cc2fd84cbb8ac0fda143b78a5447da94e9598433292fb57f7f59dbf3cf             8551 main/binary-arm64/Packages
+ 86a13ed36477e01b85087ca45cfc4567be1d45f9bd512fed73324f4fa1f60a8e             2943 main/binary-arm64/Packages.gz
+ 8fb06fd0cbe9425068e5d7dd752378cab5269c8869eecf28e7cfa7d3404ac602               89 main/binary-arm64/Release
+SHA512:
+ 78f557eb106a75f0ed0faeb1950b1be4dcca7ae8a630f351cd6fe63d1a0feb048df39371a819e71c08f511a85cf66c480f4a339f496f32c0308bf7282f33b6ed             8551 main/binary-amd64/Packages
+ 9414dcc88e876d94f1d475edea34fa9bc59576af3738da2feb75e8a061cd1d8651fce2b0b0ace67a1b107aad39a373520c61ff5fe071d44aad0c3aca3a4fd846             2940 main/binary-amd64/Packages.gz
+ fd95176b6e5e1defc80b4918c694affc613bd65eefb0246d4fcf6ae3f9cbc6661a54ff44f157ec1f6c47b21eefe1ac80416e6e42d5d8276a82f2e5c73bc5e963               89 main/binary-amd64/Release
+ aec864b546223fb30d8f6e706173fd198ff1d0ee8dd1b6c4a2e7c29bbbf1f91e9485e4729a27c4c6434c41ae6e893dde7d1232be187615d9989918646e31d7e7             8551 main/binary-arm64/Packages
+ e9f8b37a291718954259f538e4703dab6b91eca2591b3fa40df9448984a47d8bf41138c810b6ed25a34f6468c65afea142ac08d2219837f62844e07591751645             2943 main/binary-arm64/Packages.gz
+ bc5245d0f5a5bdf9ef09c2daafa2852a2a2eae3fa2fd8fa52d7621fede80ff2aaafa2742e415bb28462299cdf91a23f5020bb4ae2e1baef1ad3e1f8d4218a1de               89 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQRDreI2vMQ5ALjxRrT1fIhQVRSZkAUCasdkQBsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQ9XyIUFUUmZC1ZAD+Iq18jmqcerI70r21n/kI
+Utz44EbQoCRb4AWiTzVao+IA/2I48ddYfjEe9Ym08a54SpTaX9T5zv9P3zFM0ztr
+1EcB
+=/tOY
+-----END PGP SIGNATURE-----

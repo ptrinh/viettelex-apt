@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: trixie
+Components: main
+Date: Thu, 08 Oct 2026 09:37:03 +0000
+Description: VietTelex Vietnamese input method
+Label: VietTelex
+Origin: VietTelex
+Suite: trixie
+MD5Sum:
+ 949342a06b4fbd848cf41f984c456a1b             8506 main/binary-amd64/Packages
+ 675bd26d96475127a4c46abc46fedbe2             2938 main/binary-amd64/Packages.gz
+ 79700e6982d8101787782376f9dc77f4               87 main/binary-amd64/Release
+ 288a4d31e009107498badeb87205b1a5             8505 main/binary-arm64/Packages
+ 360145e432885c293da412fa43a6943f             2937 main/binary-arm64/Packages.gz
+ d6e1868d1735fa9f1e0d0baed3c13d22               87 main/binary-arm64/Release
+SHA1:
+ d370ec16ca8fb839354a3db44f45f731504121ed             8506 main/binary-amd64/Packages
+ 6b6c3e4acd47ceb0d6d8b946481a11deb4c1df59             2938 main/binary-amd64/Packages.gz
+ 0ccfce4bc978ab7059b960eaca40b500db467034               87 main/binary-amd64/Release
+ 10cfc658b36944af7189b9a5d59d491bc2ab717b             8505 main/binary-arm64/Packages
+ 1f179fad0ccd5f95632e8d56b2ea43c162b46b89             2937 main/binary-arm64/Packages.gz
+ e3df4551aa6b81790db9d5976fd6682af73271ec               87 main/binary-arm64/Release
+SHA256:
+ 641bf5d023e0470eeb69d92bf8430dea3ac2ce7d132070f5224ae7d68401c9c0             8506 main/binary-amd64/Packages
+ be2d2a6fa3a18023ae7c5ef053381ea993861d1723b295b97e41ff5a02277156             2938 main/binary-amd64/Packages.gz
+ a51ee6b0a066e217bfd0ff8c971926db50ebe8e997b54faaf724df9d4d73f519               87 main/binary-amd64/Release
+ 4b79cc5025d49ada976338f8a0c3feee83973cc4ba7758082263f424375ff5c2             8505 main/binary-arm64/Packages
+ e40040eabc55b91ad1e094ba6c878396966013dafabc8869ab2635d5f855b4b8             2937 main/binary-arm64/Packages.gz
+ 0640cf819063554579dad36997a6c7826e0f523dd1e5def88c995a8ae78b60c5               87 main/binary-arm64/Release
+SHA512:
+ 80ef8c5e1b2d7899b8750291165e38193a9fbb50943e81b23327d015411e9b0345414561e14c88b74bb84ff0f62e3579d9b221ca0f8ccdeda0784f1949e24376             8506 main/binary-amd64/Packages
+ e138c8b70c69d2130e9955872619734fe43fbb558f1c583aa30e49e0760951ace84c347eb0ab8749dbb6e7458f0438a06b733b6db60362251cff5bec98ef6e3d             2938 main/binary-amd64/Packages.gz
+ cd7e7ff71c96e96c78f8260004c5527acb8a38b3631fad34e427ce944be8ea220ec4aa1faaef714360cdb08ea088584bc523995e072048fca053a7ab9496eb6b               87 main/binary-amd64/Release
+ b9731363e8b072257428d595b149285ee6d13407cbc21c0457bef917e62e049e0d4b2d437365ae55c5ebd74a5ab1da9c627ed76693a47d3aab479fb1cbf1b2ae             8505 main/binary-arm64/Packages
+ a8566de7a3de75636e2fe361404dbe2961e697636bcd53d6659a531d86f103b9331ed60f2e054bdcc90d87b9aac08a5ec707a88bd562be8efb72e8c6c759fce9             2937 main/binary-arm64/Packages.gz
+ 1dd0657c16419681a94991cb5e2b33f6b51c1c50d3c85524ad3c0778fa9b2ceba38a8aa968f96f6311a381ba03585c3bd08d1c9800b2a1b01d67a40a98fecc5f               87 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQRDreI2vMQ5ALjxRrT1fIhQVRSZkAUCasdkQBsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQ9XyIUFUUmZDscAD/djac6F/kSZsPkQPXV/sq
+bTxSpJkW+vteWBEyK/+GAyQA/1w8pwLhBTc346zRdk4KMCrdGa75Z7w97LB8e09w
+E9wG
+=/A/x
+-----END PGP SIGNATURE-----
