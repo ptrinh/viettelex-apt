@@ -1,36 +1,36 @@
 Architectures: amd64 arm64
 Codename: noble
 Components: main
-Date: Thu, 08 Oct 2026 03:10:05 +0000
+Date: Thu, 08 Oct 2026 05:37:30 +0000
 Description: VietTelex Vietnamese input method
 Label: VietTelex
 Origin: VietTelex
 Suite: noble
 MD5Sum:
- 5875d194e4ee9ff1333b3e919c118d8c             8485 main/binary-amd64/Packages
- 094bae9c531816c6d94dc4a057382a41             2936 main/binary-amd64/Packages.gz
+ 193a15ddfd45c90f26a7b68ce4297bf5             8485 main/binary-amd64/Packages
+ 7011d70706a22a6dc9481e67b54e34aa             2930 main/binary-amd64/Packages.gz
  8f974f47fb26fa81f5f1781ea0149fba               86 main/binary-amd64/Release
- 71b32fbe8fc0a7973302e3fd57567094             8485 main/binary-arm64/Packages
- 01fd2230f3a6f51dc9e067e50ee47b78             2935 main/binary-arm64/Packages.gz
+ 797416450c6577499b71db17cd6bf9df             8485 main/binary-arm64/Packages
+ e370f52e30b47d4bf2c1d06ac557a3ba             2933 main/binary-arm64/Packages.gz
  1c874d3d51bb1bc523b4f1518ec27be5               86 main/binary-arm64/Release
 SHA1:
- 842f9d98a153e59108abfd32e50b34879ae0f4bb             8485 main/binary-amd64/Packages
- 5cb56d3649bb3e7dc68419b46d85f0edea23741a             2936 main/binary-amd64/Packages.gz
+ 1fe4901d0a9a3f3d2c982ff879f507143b485531             8485 main/binary-amd64/Packages
+ 08543710a874787fdaaf4996bbe836de1c049a86             2930 main/binary-amd64/Packages.gz
  d35bc212659149c73bd6bb5b36cea59014a9979c               86 main/binary-amd64/Release
- ed042c5f64f64e1e60a82a1747ed53412395700b             8485 main/binary-arm64/Packages
- c32c5cb4808a863197a751c4b2a4c1d5fb5bffcc             2935 main/binary-arm64/Packages.gz
+ df6209141afba9e8050b3c762b2723e3b8831c67             8485 main/binary-arm64/Packages
+ 687da4b92da0f478e8a44dff6e48eca6e342b953             2933 main/binary-arm64/Packages.gz
  555422037ee0ff3d1efd4f5b77422a66fe4597bb               86 main/binary-arm64/Release
 SHA256:
- 79fc414fd94555ba7eb74dfb9e86ad1e68ce52fb78cca332bd373e72dff09056             8485 main/binary-amd64/Packages
- 84c8007052489a7c9899db53a66ff8db07ff4dc11a7f8f26a0c67fe893a87ef1             2936 main/binary-amd64/Packages.gz
+ 81dd333aa2a0887487ee7b7772c04538e69acbc017e4e478da743b9c76eb52af             8485 main/binary-amd64/Packages
+ 4623a7d18d85bb391032e179d07cf3ede7df1d5f2e5359fdc2de1917959e3ebf             2930 main/binary-amd64/Packages.gz
  2135ac7c43114800bf7b40c5e738f6174dd69ac42e0eb381b6538e4ff556392e               86 main/binary-amd64/Release
- 445d6ac3defa2b94688c68a7d81b1b0d6bc52b64c3606f1d20dcd94035286b91             8485 main/binary-arm64/Packages
- 2dae18f77ebb5586745701597b1a5e8e4bce354c307d7baa00af1384e56592ac             2935 main/binary-arm64/Packages.gz
+ d2c9b1796e4fce06aed0d75c9c66b024ef80e5f7efa610c251a7244462c4ce9c             8485 main/binary-arm64/Packages
+ 1e356cb2ac45151c5a3f1c9f7c01f9bbaf4c7e09013ace0d3ade2b7f97a826cd             2933 main/binary-arm64/Packages.gz
  138ab5a140e9a86e39bbf85b3833a9c21e36696dd8c3d7c1dd21fc95355a48af               86 main/binary-arm64/Release
 SHA512:
- 8fffcb29103d9c3fecf0662839a913d617a38c6dd27876d3fad0086e0de9de32b9d1d4b2cdbb04774e9a17be56b265e309f53e6530111a74071067e5c8d598f3             8485 main/binary-amd64/Packages
- bae04360f7ab5a6dd4857542c0cb280b8c7d09eee4c05ab72110301068def253237f337f56b332a0b3c1a68746dbe748df71dd377b7eaa76c1d43f44d0980115             2936 main/binary-amd64/Packages.gz
+ 53a8ffbc2631a7d63a3df879e098e640bc78d4baa6ff690de63230ab9e1dc72f988d2d950a579affe07cce521e359c7dc5e9447552fa4b260fea3ee132c5faed             8485 main/binary-amd64/Packages
+ f0af7f3c546f607c01053cedbdf0833d2973d6f233a9734064dc98b90f8e8502e2499e600de02274317e73eb67e804bd78449e71bd1a1e368ae40affcdc1cee7             2930 main/binary-amd64/Packages.gz
  abe5fafe1e7f1d4ad3bf2d28a90dfcc94b5af1ea4d65c02b5a3ac817a61dca3582005af3845fbd6ccc2411952fc3f043cb84ba605a652f97035da3d20784a096               86 main/binary-amd64/Release
- 84133c6bbc5db98b93ccfb690b6861de7a3d32b9def9040f5a5098c57a6d0ed6bd01edadfca7467904738fa76deed106f2ebcea5e30d1c25f34731ad68e8dba0             8485 main/binary-arm64/Packages
- 9ff05d8e45d56d88022ab00564eb76beee5b9a0dd7d4682853a3f5f191f739d0fcae87a7694bcb73e096f36b3f7373bf46c8d34b093c03d14760ae6ff3fc47d0             2935 main/binary-arm64/Packages.gz
+ e52fffb9aa48a0991c90d91d2feb025f4dc7610cd52221edbedeb933699a70de0c0f8c5a45c55c4ac4079c66f143501bb2f1f0356ad0a446e1fb6ce9e0dcbc1d             8485 main/binary-arm64/Packages
+ 62fbaf33189cce55fcc0694b1ad843774dfd27fbbb316ef54e11324bb8b7936e9a52b6ca17a05faf47828ab7952c595575725626eb8ae002e6836e4931c7c0d9             2933 main/binary-arm64/Packages.gz
  5decd6af2acf3863cc73b8c5d1b74530ebe91b76209f6a92c50dcadbe8259a6b5308aca0f8ec054a5d45dff1f1b89fb971145468e53c46f74686f9076bd76f7d               86 main/binary-arm64/Release
