@@ -1,0 +1,8 @@
+[viettelex]
+name=VietTelex (Enterprise Linux 9)
+baseurl=https://ptrinh.github.io/viettelex-apt/rpm/el/9/$basearch/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://ptrinh.github.io/viettelex-apt/rpm/RPM-GPG-KEY-viettelex
+metadata_expire=6h

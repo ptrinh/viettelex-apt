@@ -1,0 +1,164 @@
+Package: libviettelex-core
+Architecture: amd64
+Version: 1.0.15~resolute1
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: viettelex
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 6158
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3), libstdc++6 (>= 11)
+Filename: pool/main/v/viettelex/libviettelex-core_1.0.15~resolute1_amd64.deb
+Size: 1836686
+MD5sum: da00cacc6cc24e935975d7141ddbcd09
+SHA1: 8ddcce823a5bcb427c0885043a91dc5fbcf94b1d
+SHA256: 863400c3c1d68d925313b67dbbbea3cf72c9b7cfddeeaa4762ca42ab984d47e1
+SHA512: d08aa4f19ee74d6d712f3d4118400cd04c163772be0c0a01cba897eda3a11d5090667eb683e44951f644f571883743d455894305ed445ac1f1fc27f9f53aa9fb
+Homepage: https://ptrinh.github.io/viettelex/
+Description: VietTelex Vietnamese input method - typing engine
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This package contains libtelexcore, the shared typing engine (Swift, built
+ with a static Swift runtime) used by the Fcitx5 and IBus frontends. It is
+ installed in a private directory and is not meant for other programs. It
+ also ships the input-method status icons shared by both frontends.
+
+Package: viettelex-fcitx5
+Architecture: amd64
+Version: 1.0.15~resolute1
+Priority: optional
+Section: utils
+Source: viettelex
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 400
+Depends: libc6 (>= 2.38), libfcitx5config6 (>= 5.1.19), libfcitx5core7 (>= 5.1.19), libfcitx5utils2 (>= 5.1.19), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.28.0), libstdc++6 (>= 13.1), libviettelex-core (= 1.0.15~resolute1), fcitx5
+Recommends: viettelex-settings, viettelex-text-tools (= 1.0.15~resolute1), fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config
+Suggests: fcitx5-config-qt
+Filename: pool/main/v/viettelex/viettelex-fcitx5_1.0.15~resolute1_amd64.deb
+Size: 153238
+MD5sum: d2f19753a01aed45d638be50f45e8f20
+SHA1: ac21b588dfa60dae34d8892512e5e4939fd9e38d
+SHA256: 3ebdf6d0890f3dc5dc28d61c98e7078ac47024e1360a09102778c0827f70b5cf
+SHA512: e4ebf9efda960e2650da77d4385d4d065857d23801879d7392f4256745ce06a45bb10d22b6a5c54d9ce9203c4affb09f7c3568df4fad6d31ae49f8e91ef73d6c
+Homepage: https://ptrinh.github.io/viettelex/
+Description: VietTelex Vietnamese input method - Fcitx5 addon
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This package contains the Fcitx5 input method addon (recommended: runs inside
+ the fcitx5 process for the lowest latency). After installing, add
+ "Vietnamese (VietTelex)" in the Fcitx5 configuration; no logout needed.
+
+Package: viettelex-ibus
+Architecture: amd64
+Version: 1.0.15~resolute1
+Priority: optional
+Section: utils
+Source: viettelex
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 309
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libstdc++6 (>= 12), libviettelex-core (= 1.0.15~resolute1), ibus
+Recommends: viettelex-settings, viettelex-text-tools (= 1.0.15~resolute1), ibus-gtk3, ibus-gtk4
+Filename: pool/main/v/viettelex/viettelex-ibus_1.0.15~resolute1_amd64.deb
+Size: 121840
+MD5sum: 88a4aad0f054240d40242a3deadb3809
+SHA1: 63e596b541710bf298ee16e2a9535fb4fcae01ef
+SHA256: 6da548f2200f2f07f8ab53c2d4ba5e73a0ca23e460d8ad64bd581c260190a11d
+SHA512: 01692582038ed491af186b250d3e4bf56a71434910cc18e32b32ac23ceb9216a425e3d6cabe21b2e27f03a748768ed7ab06c82854a3581c85b78a5213b1873c3
+Homepage: https://ptrinh.github.io/viettelex/
+Description: VietTelex Vietnamese input method - IBus engine
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This package contains the IBus engine (IBus is the default input method
+ framework of Ubuntu/GNOME). After installing, run "ibus restart" and add
+ Vietnamese > VietTelex under Settings > Keyboard > Input Sources.
+
+Package: viettelex-settings
+Architecture: all
+Version: 1.0.15~resolute1
+Priority: optional
+Section: utils
+Source: viettelex
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 343
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, adwaita-icon-theme
+Recommends: viettelex-fcitx5 | viettelex-ibus, pkexec | policykit-1
+Filename: pool/main/v/viettelex/viettelex-settings_1.0.15~resolute1_all.deb
+Size: 124820
+MD5sum: 47ec0384289e8a624c52879340df2f37
+SHA1: 330372b95a2c606b81ca0c4c1476502a273da7ed
+SHA256: 3a3cb1ae78f488e67eac6b95cb55e0cedce861225f5c3d2853d337a96c799637
+SHA512: 231a6e8ba629cb6938fe0c8425a43b3737a82c212122e09172983ffb7d080ff4bb18c4f77f0c76e68147f5d997e8fcae2a58acfce1fe20e84bbe35b8bc8f2e0b
+Homepage: https://ptrinh.github.io/viettelex/
+Description: VietTelex Vietnamese input method - settings application
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This package contains viettelex-settings, a GTK4/libadwaita application to
+ change typing options, shortcuts (abbreviations) and per-application typing
+ modes. Changes apply immediately to the running input method. It also
+ detects Fcitx5/IBus and guides you through enabling VietTelex, and can
+ update the VietTelex packages in one click (through pkexec).
+
+Package: viettelex-text-tools
+Architecture: amd64
+Version: 1.0.15~resolute1
+Priority: optional
+Section: utils
+Source: viettelex
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 15805
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3), libstdc++6 (>= 11)
+Enhances: viettelex-fcitx5, viettelex-ibus
+Filename: pool/main/v/viettelex/viettelex-text-tools_1.0.15~resolute1_amd64.deb
+Size: 5481748
+MD5sum: e3495d556f8ebcb5fc58a1f60b976054
+SHA1: 7c25b3fcd648efbc6aa02d338beec45014bd5b59
+SHA256: 0a829bdfd4e692b8682550bdd2d3fe404ede06acef5f278f414d29eb759776ef
+SHA512: ab36e387006db31a9fecdcfcc4ad72597d451212d7ff8ab775ecb27b988f7de14cd1183639aa0ebf129c5774b93fdc99d2ebb897cebe170cb239e3ec97ad5097
+Homepage: https://ptrinh.github.io/viettelex/
+Description: VietTelex Vietnamese input method - text tools for the selection
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This package adds "Tools..." to the input method menu: add Vietnamese tones
+ to unaccented selected text ("toi di hoc" becomes "tôi đi học"), UPPERCASE,
+ lowercase, Title Case, Sentence case and remove tones. It also computes the
+ suggestions shown next to the caret while typing: math results, money
+ format for numbers, typo fixes, dates and tones for unaccented sentences.
+ It contains the viettelex-text-tool helper (run as a separate process, so
+ the dictionaries never stay in the input method's memory) and its data files.
+
+Package: viettelex
+Architecture: all
+Version: 1.0.15~resolute1
+Priority: optional
+Section: metapackages
+Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
+Installed-Size: 15
+Depends: libviettelex-core (>= 1.0.15~resolute1), viettelex-settings (= 1.0.15~resolute1), viettelex-fcitx5 (>= 1.0.15~resolute1) | viettelex-ibus (>= 1.0.15~resolute1)
+Recommends: viettelex-text-tools (>= 1.0.15~resolute1)
+Filename: pool/main/v/viettelex/viettelex_1.0.15~resolute1_all.deb
+Size: 7960
+MD5sum: 3703486f9440e44d43e8610e1b5478de
+SHA1: 6261fabab6386080040e51f78b21195270b288d5
+SHA256: be1485119433b5aa5b46da8c4e47ef83f229920b8dbaac296df66e2918a246f4
+SHA512: 21ec392bf24682b82b7d7cba8fcc21c5e72677d851925c83690eaa2a251a710246071511a9b8b4c6cf198baeecaeca1811a0d95569b47f94175545e48499a9a5
+Homepage: https://ptrinh.github.io/viettelex/
+Description: Vietnamese input method (Telex, VNI) - full install (metapackage)
+ VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
+ Telex, VNI, free tone placement, Quick Telex, live spell-check, automatic
+ English restore and context-aware decisions.
+ .
+ This metapackage installs the typing engine, the settings application, the
+ text tools and one input method frontend: Fcitx5 by default, or IBus when
+ viettelex-ibus is already installed or requested
+ ("apt install viettelex viettelex-ibus").
+

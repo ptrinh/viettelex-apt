@@ -1,0 +1,8 @@
+[viettelex]
+name=VietTelex (Fedora $releasever)
+baseurl=https://ptrinh.github.io/viettelex-apt/rpm/fedora/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://ptrinh.github.io/viettelex-apt/rpm/RPM-GPG-KEY-viettelex
+metadata_expire=6h
