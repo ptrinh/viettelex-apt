@@ -1,19 +1,19 @@
 Package: libviettelex-core
 Architecture: arm64
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Multi-Arch: same
 Priority: optional
 Section: utils
 Source: viettelex
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
-Installed-Size: 5651
+Installed-Size: 5719
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3), libstdc++6 (>= 11)
-Filename: pool/main/v/viettelex/libviettelex-core_1.0.17~resolute1_arm64.deb
-Size: 1646010
-MD5sum: 2b2c54b7a598cf0d47fe08d935766208
-SHA1: 83c338513823e55570449f735cb6a37da97595d9
-SHA256: 3c13efefec3c5ecb00210d1150c63bfd0dcac7fff4f009824c51588553f80218
-SHA512: 551def73330d07409750215d256bebdd7e3e027436b603d14cc0e4920777b25715939c9d21d94407116a655a84a2b58bc653cb82db4abf1f7465e8e97fa023a7
+Filename: pool/main/v/viettelex/libviettelex-core_1.0.18~resolute1_arm64.deb
+Size: 1655272
+MD5sum: beb56222759b83ab1676f6310c3d7efa
+SHA1: 63f1afc5dcce274386813c96e59683b8bcdcee34
+SHA256: 0d86790030940e48c298385331673ecedc1bd83a590a6907a7fd6fdfc58137ac
+SHA512: 4fea86a264b96d691c6653592265d4367902b46169e63ac688fc6a40c1c806c78692d1280d3b1bad5215adf424a03683ddbc79a36a89c5b2034a16d993ea5d56
 Homepage: https://ptrinh.github.io/viettelex/
 Description: VietTelex Vietnamese input method - typing engine
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
@@ -27,21 +27,21 @@ Description: VietTelex Vietnamese input method - typing engine
 
 Package: viettelex-fcitx5
 Architecture: arm64
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Priority: optional
 Section: utils
 Source: viettelex
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
 Installed-Size: 413
-Depends: libc6 (>= 2.38), libfcitx5config6 (>= 5.1.19), libfcitx5core7 (>= 5.1.19), libfcitx5utils2 (>= 5.1.19), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.28.0), libstdc++6 (>= 13.1), libviettelex-core (= 1.0.17~resolute1), fcitx5
-Recommends: viettelex-settings, viettelex-text-tools (= 1.0.17~resolute1), fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config
+Depends: libc6 (>= 2.38), libfcitx5config6 (>= 5.1.19), libfcitx5core7 (>= 5.1.19), libfcitx5utils2 (>= 5.1.19), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.28.0), libstdc++6 (>= 13.1), libviettelex-core (= 1.0.18~resolute1), fcitx5
+Recommends: viettelex-settings, viettelex-text-tools (= 1.0.18~resolute1), fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, im-config
 Suggests: fcitx5-config-qt
-Filename: pool/main/v/viettelex/viettelex-fcitx5_1.0.17~resolute1_arm64.deb
-Size: 145588
-MD5sum: 01a563970c7cf0b07d08b13172cf8462
-SHA1: bebdc0ff1138877c2868ca3949c6f73187dcc058
-SHA256: 60e0108f1684d4790583714bd2197bafc91b828c38279ae0f226648f2323a4f4
-SHA512: 1e846894a7a20e490e6ad96114c5cf56deb3f98c0cfbf41316b690d573a7818d8fb5c4ec29301a6a39b939143275cb0e5d763d2468f909794b61e839ff00f71f
+Filename: pool/main/v/viettelex/viettelex-fcitx5_1.0.18~resolute1_arm64.deb
+Size: 150056
+MD5sum: 59865f9c8f1d9f25f84cf2c6557f82ff
+SHA1: 718122bf0d9f62fe6fd3982449ad15733ee5fe66
+SHA256: 1d3fb8682e390d07d871f614f2e3ba454af7d2d0fddfd6d90c351c0ccffaec2c
+SHA512: 4d93183b8ef94e3798dc2b60d700d02cdfd815319d0e42738e3198f3c421d7babb9b89cc653e21834ccdd9f969997a0263e7d3a54ed532212dc3982f3f94d7dc
 Homepage: https://ptrinh.github.io/viettelex/
 Description: VietTelex Vietnamese input method - Fcitx5 addon
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
@@ -54,20 +54,20 @@ Description: VietTelex Vietnamese input method - Fcitx5 addon
 
 Package: viettelex-ibus
 Architecture: arm64
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Priority: optional
 Section: utils
 Source: viettelex
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
-Installed-Size: 282
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libstdc++6 (>= 12), libviettelex-core (= 1.0.17~resolute1), ibus
-Recommends: viettelex-settings, viettelex-text-tools (= 1.0.17~resolute1), ibus-gtk3, ibus-gtk4
-Filename: pool/main/v/viettelex/viettelex-ibus_1.0.17~resolute1_arm64.deb
-Size: 116060
-MD5sum: 8fe5ba8c8bb0b95afa02953844f69946
-SHA1: c4a7eba9e0fe096d709aab43f5e7461202a5b6e5
-SHA256: d57b877a509765bfac5685b0c68323d1c9883ed9293b63f2ee096ff8f9c02c91
-SHA512: 4771bba1ff6ee0b6cfbcf04d38205d450857d7d04bf5fa1cd188d695d0624c061429abe41b3f87812eb5a72cc3084de355d6b0e5227a2c8f91f596da82217b2b
+Installed-Size: 346
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libglib2.0-0t64 (>= 2.80.0), libibus-1.0-5 (>= 1.5.1), libstdc++6 (>= 12), libviettelex-core (= 1.0.18~resolute1), ibus
+Recommends: viettelex-settings, viettelex-text-tools (= 1.0.18~resolute1), ibus-gtk3, ibus-gtk4
+Filename: pool/main/v/viettelex/viettelex-ibus_1.0.18~resolute1_arm64.deb
+Size: 119368
+MD5sum: da1ef84832d3a8e4e9f07a0d0c0a6588
+SHA1: b9f5d7a7a076553ff7acfed056a4ce1449ccb99b
+SHA256: eb5cae856437d934802a3d073f91d0b6d6a6892f967ef81e996cb26d6bbe301b
+SHA512: 2ae5336e112f72e22c357c927cbbc053512c21e871965c2522f854609438a69801b2fac5fe5c79d947593c416edc49b164eb046ca653b1e2ddcc8434d10a18bb
 Homepage: https://ptrinh.github.io/viettelex/
 Description: VietTelex Vietnamese input method - IBus engine
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
@@ -80,20 +80,20 @@ Description: VietTelex Vietnamese input method - IBus engine
 
 Package: viettelex-settings
 Architecture: all
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Priority: optional
 Section: utils
 Source: viettelex
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
-Installed-Size: 344
+Installed-Size: 345
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, adwaita-icon-theme
 Recommends: viettelex-fcitx5 | viettelex-ibus, pkexec | policykit-1
-Filename: pool/main/v/viettelex/viettelex-settings_1.0.17~resolute1_all.deb
-Size: 125746
-MD5sum: 40ec96228dc1f427ad7bbb5d92f0162d
-SHA1: 87c945b07750b014f6c331430ecb3fc901251390
-SHA256: 97be173cbba5f92943485db2794f6053bfb898caac1effc18f09489f3731150e
-SHA512: 73d1e608107f3aceaf7fb259eca4c87c22c7beece570a7c189a6bdcf81b5a937695e6e1aae8f66e4368e2565126ca5e1b93ffbffe358f41b937ddde0beff1537
+Filename: pool/main/v/viettelex/viettelex-settings_1.0.18~resolute1_all.deb
+Size: 126498
+MD5sum: f8d3374ffd06e1c3c1af9095c01b4be2
+SHA1: 70153aa16219bccd2760b6ef2f390124de5e6177
+SHA256: fe693441558894125b9e970c95a0c8e3daae457be0b07710ae06d6dc3f5d1881
+SHA512: 1394ccf55004aa90d9135f4411921d80619dc42d6b92dd4e61e447543930732c02b6cfc65752aef403e7125836b195dccb8dbc53ea7cd5ab9b7cdd5236cc1c7c
 Homepage: https://ptrinh.github.io/viettelex/
 Description: VietTelex Vietnamese input method - settings application
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
@@ -108,20 +108,20 @@ Description: VietTelex Vietnamese input method - settings application
 
 Package: viettelex-text-tools
 Architecture: arm64
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Priority: optional
 Section: utils
 Source: viettelex
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
-Installed-Size: 15295
+Installed-Size: 15367
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 3.3), libstdc++6 (>= 11)
 Enhances: viettelex-fcitx5, viettelex-ibus
-Filename: pool/main/v/viettelex/viettelex-text-tools_1.0.17~resolute1_arm64.deb
-Size: 5642378
-MD5sum: ea8fb5d784ccb97dfa435e9eb28755bf
-SHA1: 0a3076a586a603de247ec51713ebf6fea5cbdae4
-SHA256: c58d3fa8267dea0337f4ea1844288ef60336dd878aa15360369be055c01e7468
-SHA512: 030eb8b012fea849ef2b2e11a9f63d31eebe8b1fb0bf149f65121a00eca5fc2cc2e2e751e5cc33066dd57a69fb86a2c0b385cf7701104bb5748c28ebb7ba7f1d
+Filename: pool/main/v/viettelex/viettelex-text-tools_1.0.18~resolute1_arm64.deb
+Size: 5653588
+MD5sum: 7f8afc9b0ef40f47abd5cd2c813beb9d
+SHA1: c28432d62919d4a6c68045139809df98038273f8
+SHA256: 887765685220039b8f37741572f5963b2176a1ee1be87439a0c1f377678c9a21
+SHA512: 6f16f692e303aa9b54c6dbe08270d676e073b2e11ebbc6cfef5a1fb21a9a55997b13d2690d4807d9b8dadb59c4ce9b273d008d5f9dd3d0ea7f366f684c542b86
 Homepage: https://ptrinh.github.io/viettelex/
 Description: VietTelex Vietnamese input method - text tools for the selection
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
@@ -138,19 +138,19 @@ Description: VietTelex Vietnamese input method - text tools for the selection
 
 Package: viettelex
 Architecture: all
-Version: 1.0.17~resolute1
+Version: 1.0.18~resolute1
 Priority: optional
 Section: metapackages
 Maintainer: VietTelex Maintainers <maintainers@viettelex.invalid>
 Installed-Size: 16
-Depends: libviettelex-core (>= 1.0.17~resolute1), viettelex-settings (= 1.0.17~resolute1), viettelex-fcitx5 (>= 1.0.17~resolute1) | viettelex-ibus (>= 1.0.17~resolute1)
-Recommends: viettelex-text-tools (>= 1.0.17~resolute1)
-Filename: pool/main/v/viettelex/viettelex_1.0.17~resolute1_all.deb
-Size: 8958
-MD5sum: c5bdd7cd509007e3a1a369e6416ef952
-SHA1: 6f182947c15b37a0b20747374ea9d38ff65cc661
-SHA256: 916b839dae5214447c06369961b91353ec7fddc7ecc7c8795279cec3d3eb7c65
-SHA512: 6dd1310563dece3d2910ca5bc35a7c7a8378052c33fa3e457b26e00c55ed94d4638c61413e748942c73c409957d9dc4a222c59d59ce1ad9317f59a36145840ba
+Depends: libviettelex-core (>= 1.0.18~resolute1), viettelex-settings (= 1.0.18~resolute1), viettelex-fcitx5 (>= 1.0.18~resolute1) | viettelex-ibus (>= 1.0.18~resolute1)
+Recommends: viettelex-text-tools (>= 1.0.18~resolute1)
+Filename: pool/main/v/viettelex/viettelex_1.0.18~resolute1_all.deb
+Size: 9354
+MD5sum: 1c5b1cb73789a42a387d67f35fe3d46e
+SHA1: d932e62919b1ddfbceab38627a59d6be2d555e47
+SHA256: ab20996eeceead34e9271760252b7bf1d176566e5643b041839af4a1adc11f3c
+SHA512: 2cb28f2a451f7d8e3c5aeab6e548ff6f13712911bf136863f39dc33ee2289a14643cb1567ad105508d048517ecbdfbe66b5b0f8b94dc06dbe29573ee8d2d627e
 Homepage: https://ptrinh.github.io/viettelex/
 Description: Vietnamese input method (Telex, VNI) - full install (metapackage)
  VietTelex types Vietnamese exactly like its macOS version: Telex, Simple
